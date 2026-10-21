@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Part 3 - Events</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="site-nav">
+    <a href="index.html" class="brand">Assignment #5</a>
+    <ul>
+      <li><a href="index.html">Part 1</a></li>
+      <li><a href="part2.html">Part 2</a></li>
+      <li><a href="part3.html" class="active">Part 3</a></li>
+      <li><a href="part4.html">Part 4</a></li>
+    </ul>
+  </nav>
+
+  <main class="main-container">
+    <div class="card">
+      <h2>Task 5. Mouse Events</h2>
+      <div id="box">Hover over me!</div>
+    </div>
+
+    <div class="card">
+      <h2>Task 6. Keyboard Events</h2>
+      <input type="text" id="liveInput" class="input-pink" placeholder="Type something here...">
+      <p>Live Output: <strong id="liveOutput" style="color: var(--pink-600);">...</strong></p>
+    </div>
+
+    <div class="card">
+      <h2>Task 7. Calculator</h2>
+      <input type="number" id="num1" class="input-pink" placeholder="Number 1">
+      <input type="number" id="num2" class="input-pink" placeholder="Number 2">
+      <div style="display: flex; gap: .5rem; margin-bottom: 1rem;">
+        <button class="btn-pink" onclick="calc('+')">+</button>
+        <button class="btn-pink" onclick="calc('-')">-</button>
+        <button class="btn-pink" onclick="calc('*')">*</button>
+        <button class="btn-pink" onclick="calc('/')">/</button>
+      </div>
+      <h3>Result: <span id="calcResult" style="color: var(--pink-600);">0</span></h3>
+    </div>
+  </main>
+
+  <footer>Assignment #5 — JavaScript Basics</footer>
+  <script src="js/part3.js"></script>
+</body>
+</html>
