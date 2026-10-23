@@ -2,7 +2,7 @@
 
 **Student:** Rakhymbay Ayazhan
 **Group:** SE-2529
-**Live Demo:** https://your-username.github.io/web5/
+
 
 ## Description
 This project covers fundamental JavaScript DOM manipulation, event handlers, and an interactive To-Do List application.
