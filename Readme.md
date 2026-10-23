@@ -1,7 +1,7 @@
 # Assignment #5: JavaScript Basics (DOM Manipulation & Events)
 
-**Student:** Write your full name  
-**Group:** Write your group  
+**Student:** Rakhymbay Ayazhan
+**Group:** SE-2529
 **Live Demo:** https://your-username.github.io/web5/
 
 ## Description
